@@ -1,0 +1,37 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    box-sizing: border-box;
+
+}
+table{
+    width: 1000px;
+    box-shadow: -1px 12px 12px -6px rgba(o,o,o,0.5);
+}
+table, td, th{
+    padding: 20px;
+    border: 1px solid rgb(14, 72, 104);
+    border-collapse: collapse;
+    text-align: center;
+}
+td{
+    font-size: 18px;
+
+}
+th{
+    background-color:var(--color-black-1) ;
+    color: white;
+
+}
+tr:nth-child(even){
+    background-color: lightblue;
+
+}
+tr:nth-child(even):hover{
+    background-color: lightsteelblue;
+    color: white;
+    transform: scale(1.1);
+    transition: transform 300ms ease-in;
+}
